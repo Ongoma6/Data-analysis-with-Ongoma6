@@ -23,11 +23,11 @@ Frameworks_Assignment/
 ├── README.md                          # This file - project documentation
 ├── requirements.txt                   # Python package dependencies
 │
-├── part1_data_exploration.py          # Part 1: Data loading and basic exploration
-├── part2_data_cleaning.py            # Part 2: Data cleaning and preparation
-├── part3_analysis_visualization.py    # Part 3: Analysis and visualization
-├── part4_streamlit_app.py            # Part 4: Interactive Streamlit application
-├── part5_documentation.md            # Part 5: Documentation and reflection
+├── exploration.py          # Part 1: Data loading and basic exploration
+├── cleaning.py            # Part 2: Data cleaning and preparation
+├── analysis.py    # Part 3: Analysis and visualization
+├── streamlit_app.py            # Part 4: Interactive Streamlit application
+├── documentation.md            # Part 5: Documentation and reflection
 │
 ├── data/                             # Data files (create this folder)
 │   ├── metadata.csv                  # CORD-19 dataset (download separately)
@@ -64,8 +64,8 @@ Frameworks_Assignment/
 
 1. **Clone the repository**:
 ```bash
-git clone https://github.com/yourusername/Frameworks_Assignment.git
-cd Frameworks_Assignment
+git clone https://github.com/yourusername/Data-analysis-with-Ongoma6.git
+cd Data-analysis-with-Ongoma6
 ```
 
 2. **Install required packages**:
@@ -80,7 +80,7 @@ pip install -r requirements.txt
 
 4. **Create necessary folders**:
 ```bash
-mkdir data outputs visualizations
+mkdir outputs 
 ```
 
 ### Running the Analysis
@@ -89,16 +89,16 @@ Execute the parts in order:
 
 ```bash
 # Part 1: Data Exploration (2-3 hours)
-python part1_data_exploration.py
+python exploration.py
 
 # Part 2: Data Cleaning (2-3 hours)  
-python part2_data_cleaning.py
+python cleaning.py
 
 # Part 3: Analysis & Visualization (3-4 hours)
-python part3_analysis_visualization.py
+python analysis.py
 
 # Part 4: Streamlit App
-streamlit run part4_streamlit_app.py
+ python3 -m streamlit run streamlit_app.py
 ```
 
 The Streamlit app will open in your browser at `http://localhost:8501`
