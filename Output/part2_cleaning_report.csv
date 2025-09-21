@@ -1,0 +1,10 @@
+Metric,Value
+Original_Records,10000
+Final_Records,8988
+Records_Removed,1012
+Reduction_Percentage,10.1%
+Columns_Original,19
+Columns_Final,25
+Date_Range,2019 - 2023
+Avg_Abstract_Words,101.2
+Quality_Score,High

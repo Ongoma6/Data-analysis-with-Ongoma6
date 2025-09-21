@@ -1,0 +1,20 @@
+Column,Missing Count,Missing Percentage
+arxiv_id,9006,90.06
+pmc_json_files,8044,80.44
+who_covidence_id,7985,79.85
+pdf_json_files,7058,70.58
+mag_id,5946,59.46
+pubmed_id,4974,49.74
+pmcid,4008,40.08
+s2_id,3947,39.47
+sha,3053,30.53
+url,2967,29.67
+doi,1997,19.97
+abstract,1012,10.12
+cord_uid,0,0.0
+source_x,0,0.0
+title,0,0.0
+authors,0,0.0
+publish_time,0,0.0
+license,0,0.0
+journal,0,0.0
